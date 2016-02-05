@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035ea44a-b477-4658-b716-0c14df9ffdc8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DOP-Solr-indexer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/DOP-Solr-indexer-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ee/hm/ConditionalCopyProcessorFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ee/hm/ConditionalCopyProcessorFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DOP-Solr-indexer.iws" />
@@ -42,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConditionalCopyProcessorFactory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConditionalCopyProcessorFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ee/hm/ConditionalCopyProcessorFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.44516128">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32903227">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -140,8 +138,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ConditionalCopyProcessorFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ee/hm/ConditionalCopyProcessorFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/hm/ConditionalCopyProcessorFactory.java" />
       </list>
     </option>
   </component>
@@ -607,7 +605,7 @@
       <option name="number" value="Default" />
       <updated>1453985006311</updated>
       <workItem from="1453985009538" duration="10727000" />
-      <workItem from="1454590925149" duration="2142000" />
+      <workItem from="1454590925149" duration="4357000" />
     </task>
     <task id="LOCAL-00001" summary="pom test">
       <created>1454661197216</created>
@@ -615,11 +613,23 @@
       <option name="project" value="LOCAL" />
       <updated>1454661197217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removed repo">
+      <created>1454661711305</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1454661711305</updated>
+    </task>
+    <task id="LOCAL-00003" summary="readded dependancy fix">
+      <created>1454664769337</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1454664769337</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12869000" />
+    <option name="totallyTimeSpent" value="15084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="24" width="1920" height="1056" extended-state="6" />
@@ -664,7 +674,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom test" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom test" />
+    <MESSAGE value="removed repo" />
+    <MESSAGE value="readded dependancy fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="readded dependancy fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,21 +866,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/hm/ConditionalCopyProcessorFactory.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/hm/ConditionalCopyProcessorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32903227">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.44516128">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

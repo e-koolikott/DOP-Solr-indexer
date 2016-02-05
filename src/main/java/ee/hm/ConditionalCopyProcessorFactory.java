@@ -9,8 +9,6 @@ import org.apache.solr.response.SolrQueryResponse;
 import org.apache.solr.update.AddUpdateCommand;
 import org.apache.solr.update.processor.UpdateRequestProcessor;
 import org.apache.solr.update.processor.UpdateRequestProcessorFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class ConditionalCopyProcessorFactory extends UpdateRequestProcessorFactory {
     @Override
@@ -20,7 +18,6 @@ public class ConditionalCopyProcessorFactory extends UpdateRequestProcessorFacto
 }
 
 class ConditionalCopyProcessor extends UpdateRequestProcessor {
-    Logger logger = LoggerFactory.getLogger(ConditionalCopyProcessor.class);
 
     public ConditionalCopyProcessor(UpdateRequestProcessor next) {
         super(next);
@@ -38,7 +35,6 @@ class ConditionalCopyProcessor extends UpdateRequestProcessor {
                 int count = Integer.parseInt(upVote.substring(upVote.lastIndexOf("_") + 1));
 
                 for (int i = 0; i < count; i++) {
-                    logger.warn("Adding tag - " + tag);
                     doc.addField("tag", tag);
                 }
             });
